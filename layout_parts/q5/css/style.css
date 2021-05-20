@@ -15,6 +15,8 @@
   text-align: center;
   line-height: 100px;
   position: absolute; top: 40px; left: 200px; z-index: 1;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .two {
@@ -24,6 +26,8 @@
   text-align: center;
   line-height: 100px;
   position: absolute; top: 120px; left: 280px; z-index: 2;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .three {
@@ -33,6 +37,8 @@
   text-align: center;
   line-height: 100px;
   position: absolute; top: 200px; left: 360px; z-index: 3;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .four {
@@ -42,6 +48,8 @@
   text-align: center;
   line-height: 100px;
   position: absolute; top: 280px; left: 280px; z-index: 4;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .five {
@@ -50,7 +58,9 @@
   background-color: #9fd6d2;
   text-align: center;
   line-height: 100px;
-position: absolute; top: 360px; left: 200px; z-index: 5;
+  position: absolute; top: 360px; left: 200px; z-index: 5;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .six {
@@ -60,6 +70,8 @@ position: absolute; top: 360px; left: 200px; z-index: 5;
   text-align: center;
   line-height: 100px;
   position: absolute; top: 280px; left: 120px; z-index: 6;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .seven {
@@ -69,6 +81,8 @@ position: absolute; top: 360px; left: 200px; z-index: 5;
   text-align: center;
   line-height: 100px;
   position: absolute; top: 200px; left: 40px; z-index: 7;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .eight {
@@ -78,6 +92,8 @@ position: absolute; top: 360px; left: 200px; z-index: 5;
   text-align: center;
   line-height: 100px;
   position: absolute; top: 120px; left: 120px; z-index: 8;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .nine {
@@ -87,6 +103,8 @@ position: absolute; top: 360px; left: 200px; z-index: 5;
   text-align: center;
   line-height: 100px;
   position: fixed; left: 10px; top: 10px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .eight::after {
@@ -95,4 +113,6 @@ position: absolute; top: 360px; left: 200px; z-index: 5;
   height: 20px;
   background-color:#ffefd3 ;
   position: absolute; left: 80px; z-index: 8;
+  font-size: 30px;
+  font-weight: bold;
 }
