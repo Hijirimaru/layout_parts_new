@@ -6,105 +6,73 @@
   height: 500px;
   background-color: #ecf1f2;
   position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
 }
 
 .one {
   width: 100px;
   height: 100px;
   background-color:#ffefd3 ;
-  text-align: center;
-  line-height: 100px;
   position: absolute; top: 40px; left: 200px; z-index: 1;
-  font-size: 30px;
-  font-weight: bold;
 }
 
 .two {
   width: 100px;
   height: 100px;
   background-color:#7084de ;
-  text-align: center;
-  line-height: 100px;
   position: absolute; top: 120px; left: 280px; z-index: 2;
-  font-size: 30px;
-  font-weight: bold;
 }
 
 .three {
   width: 100px;
   height: 100px;
   background-color: #d0ecea;
-  text-align: center;
-  line-height: 100px;
   position: absolute; top: 200px; left: 360px; z-index: 3;
-  font-size: 30px;
-  font-weight: bold;
 }
 
 .four {
   width: 100px;
   height: 100px;
   background-color: #8b7a5b;
-  text-align: center;
-  line-height: 100px;
   position: absolute; top: 280px; left: 280px; z-index: 4;
-  font-size: 30px;
-  font-weight: bold;
 }
 
 .five {
   width: 100px;
   height: 100px;
   background-color: #9fd6d2;
-  text-align: center;
-  line-height: 100px;
   position: absolute; top: 360px; left: 200px; z-index: 5;
-  font-size: 30px;
-  font-weight: bold;
 }
 
 .six {
   width: 100px;
   height: 100px;
   background-color: #fffee4;
-  text-align: center;
-  line-height: 100px;
   position: absolute; top: 280px; left: 120px; z-index: 6;
-  font-size: 30px;
-  font-weight: bold;
 }
 
 .seven {
   width: 100px;
   height: 100px;
   background-color:#deae70 ;
-  text-align: center;
-  line-height: 100px;
   position: absolute; top: 200px; left: 40px; z-index: 7;
-  font-size: 30px;
-  font-weight: bold;
 }
 
 .eight {
   width: 100px;
   height: 100px;
   background-color: #de70cf;
-  text-align: center;
-  line-height: 100px;
   position: absolute; top: 120px; left: 120px; z-index: 8;
-  font-size: 30px;
-  font-weight: bold;
 }
 
 .nine {
   width: 100px;
   height: 100px;
   background-color:#3b69a3 ;
-  text-align: center;
-  line-height: 100px;
   position: fixed; left: 10px; top: 10px;
-  font-size: 30px;
-  font-weight: bold;
 }
 
 .eight::after {
@@ -113,6 +81,4 @@
   height: 20px;
   background-color:#ffefd3 ;
   position: absolute; left: 80px; z-index: 8;
-  font-size: 30px;
-  font-weight: bold;
 }

@@ -1,38 +1,39 @@
 @charset "UTF-8";
 
 .clearfix:after {
-display: block;
-content: "";
-clear: both;
+  display: block;
+  content: "";
+  clear: both;
 }
 
-.wrapper{
-width: 940px;
-margin: 0 auto;
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
 }
 
-.container{
-height: 420px;
-background-color:#eff3f4 ;
-padding: 20px;
+.container {
+  background-color:#eff3f4 ;
+  padding: 20px;
 }
 
-.contents{
-background-color:#3274ae ;
-margin-left: 20px;
-padding: 20px;
-float: left;
+.contents:first-child {
+  margin-left: 0px;
 }
 
-.textback{
-width: 210px;
-height: 330px;
-background-color: #eaf4ff;
-border: #022336 10px solid;
+.contents {
+  background-color:#3274ae ;
+  margin-left: 20px;
+  padding: 20px;
+  float: left;
 }
 
-.text{
-margin: 20px;
-font-size: 14px;
-line-height: 16px;
+.textback {
+  width: 210px;
+  background-color: #eaf4ff;
+  border: #022336 10px solid;
+}
+
+.text {
+  margin: 20px;
+  line-height: 16px;
 }
