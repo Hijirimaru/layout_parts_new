@@ -10,33 +10,39 @@
   table-layout: fixed;
 }
 
-.table th {
-  padding: 9px;
+.thread {
   background-color: #2244aa;
   border: solid #dedede 1px;
-  font-size: 18px;
-  line-height: 28px;
   color: #ffffff;
 }
 
-.table td {
-  padding: 10px;
+.body {
   border: solid #dedede 1px;
   font-size: 16px;
   text-align: center;
-  line-height: 26px;
+  line-height: 22px;
 }
 
-.even {
+.th {
+  background-color: #2244aa;
+  border: solid #dedede 1px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.td {
+  border: solid #dedede 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.sum {
-  border-top: dashed #000 2px;
-}
-
-.table td:first-child {
-  background-color: #2244aa;
-  color: #ffffff;
-  font-size: 18px;
+tbody tr:last-child {
+  border-top: 2px dashed #000;
 }
