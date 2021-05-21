@@ -6,18 +6,13 @@
   clear: both;
 }
 
-.pack {
-  width: 940px;
-  margin: 0 auto;
-}
-
 .container {
   background-color:#eff3f4 ;
-  padding: 20px;
-}
-
-.contents:first-child {
-  margin-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 940px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .contents {

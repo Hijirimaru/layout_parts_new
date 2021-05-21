@@ -3,7 +3,6 @@
 .container {
   background-color: #eff3f4;
   padding: 20px;
-  padding-bottom: 0px;
 }
 
 .contents {
@@ -11,41 +10,41 @@
   display: table;
 }
 
+.contents:first-child {
+  margin-bottom: 20px;
+}
+
 .cell {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  display: table-cell;
+
 }
 
 .pink {
   background-color: #fdc8b8;
   width: 100px;
-  display: table-cell;
 }
 
 .purple {
   background-color: #e0abd9;
-  display: table-cell;
 }
 
 .blue {
   background-color: #b6d8ed;
   width: 100px;
-  display: table-cell;
 }
 
 .yellow {
   background-color: #e5d32e;
-  display: table-cell;
 }
 
 .red {
   background-color: #ec8f9a;
-  display: table-cell;
 }
 
 .green {
   background-color: #8fdcad;
   width: 500px;
-  display: table-cell;
 }
