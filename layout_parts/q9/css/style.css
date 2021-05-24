@@ -1,5 +1,34 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.textbox {
+  position: relative;
+  margin: 0% auto;
+  width: 500px;
+  padding: 20px;
+  border: 5px solid #222;
+  border-radius: 30px;
+}
 
-/* 回答はここに書いてね */
+.textbox::before {
+  content: "";
+  top: 100%;
+  left: 4.8%;
+  position: absolute;
+  border: 25px solid transparent;
+  border-top: 25px solid #222;
+}
+
+.textbox::after {
+  content: "";
+  top: 100%;
+  left: 6%;
+  position: absolute;
+  border: 18px solid transparent;
+  border-top: 18px solid #fff;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 16px;
+  word-break: keep-all;
+}
