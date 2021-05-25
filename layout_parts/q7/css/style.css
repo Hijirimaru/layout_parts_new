@@ -6,6 +6,10 @@
   clear: both;
 }
 
+.text {
+  font-size: 16px;
+}
+
 .float{
   width: 225px;
   float: left;
@@ -42,7 +46,6 @@
   margin-left: 50px;
   vertical-align: middle;
   box-sizing: border-box;
-  font-size: 16px;
 }
 
 .inline:first-child {
@@ -66,9 +69,9 @@
 }
 
 .ibmleft {
-  font-size: 16px;
   width: 300px;
   display: inline-block;
+  vertical-align: top;
 }
 
 .ibmright {
@@ -76,6 +79,5 @@
   margin-left: -300px;
   box-sizing: border-box;
   width: 100%;
-  font-size: 16px;
   display: inline-block
 }
