@@ -10,6 +10,10 @@
   font-size: 16px;
 }
 
+.notext {
+  font-size: 0;
+}
+
 .float{
   width: 225px;
   float: left;
@@ -36,10 +40,6 @@
   padding-left: 0px;
 }
 
-.inlinebox {
-  font-size: 0%;
-}
-
 .inline {
   width: 225px;
   display: inline-block;
@@ -64,13 +64,12 @@
   box-sizing: border-box;
 }
 
-.ibmbox {
-  font-size: 0px;
+.ibm {
+  display: inline-block;
 }
 
 .ibmleft {
   width: 300px;
-  display: inline-block;
   vertical-align: top;
 }
 
@@ -79,5 +78,4 @@
   margin-left: -300px;
   box-sizing: border-box;
   width: 100%;
-  display: inline-block
 }
